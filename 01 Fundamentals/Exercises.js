@@ -27,3 +27,14 @@ if (index % 3 === 0 && index % 5 === 0) {
     
 }
 }
+
+// Exercise 3
+
+function min(num,num2) {
+
+    let smaller = num<num2 ? num : num2
+    return smaller
+}
+
+console.log(min(0, 10))
+console.log(min(0, -10))
