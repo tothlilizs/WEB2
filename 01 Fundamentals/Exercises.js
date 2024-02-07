@@ -87,7 +87,7 @@ function sum(numbers) {
     return total
 }
 
-console.log(sum(range(1, 10)))*/
+console.log(sum(range(1, 10)))
 
 function range2(num,num2,num3 =num < num2 ? 1 : -1) {
     const numbers = []
@@ -104,4 +104,8 @@ function range2(num,num2,num3 =num < num2 ? 1 : -1) {
 return numbers
 }
 console.log(range2(1,10,2))
-console.log(range2(5,2,-1))
+console.log(range2(5,2,-1))*/
+
+//Exercise 7
+
+
